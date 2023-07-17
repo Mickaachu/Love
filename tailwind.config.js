@@ -4,6 +4,8 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './component/**/*.{js,ts,jsx,tsx,mdx}',
+  
   ],
   theme: {
     extend: {
@@ -12,6 +14,12 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      boxShadow: {
+        '3xl': '30px 35px 0px -10px rgba(97, 97, 97, 0.5)',
+      },
+      minWidth: {
+        'carousel': '22rem',
+      }
     },
   },
   plugins: [],
