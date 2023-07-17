@@ -13,7 +13,7 @@ function Gray() {
         <div className="h-screen  bg-gray-200  py-10 md:my-40 flex justify-center items-center flex-col md:flex-row gap-10  md:gap-32">
             <div className="text-3xl text-black text-center md:pt-24  flex justify-center items-center">
                 <motion.p
-                    variants={TextAnimate} viewport={{once:true, amount:0.8}} initial={'offscreen'} whileInView={'onscreen'}
+                    variants={TextAnimate} viewport={{once:true, amount:0.4}} initial={'offscreen'} whileInView={'onscreen'}
                  className="max-w-sm " >
                     Every moment has brought me an indescribable level of happiness.
                  </motion.p>
