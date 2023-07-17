@@ -71,7 +71,7 @@ function Footer() {
             variants={img4Anim}
                 initial='offscreen'
                 whileInView='onscreen'
-                viewport={{once:true}}
+                viewport={{once:true }}
                 className="hidden md:block absolute -right-20 -rotate-45 top-0 overflow-hidden">
                 <Image src='/car3.jpg' width={400} height={300}/>
             </motion.div>

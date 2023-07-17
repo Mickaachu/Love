@@ -19,13 +19,13 @@ function Happiness() {
             <motion.div 
                 initial={'offscreen'}
                 whileInView={'onscreen'}
-                viewport={{once:true}}
+                viewport={{once:true , amount:0.8}}
                 variants={ImageAnimations}
-                className="relative max-w-lg h-80 w-9/12 md:h-96 md:w-full">
+                className="relative max-w-lg h-4/5 w-9/12  md:w-full">
                 <Image className="shadow-3xl " src='/Happiness.jpg' fill/>
             </motion.div>
             <div className="text-3xl text-center  flex justify-center items-center">
-                <motion.p variants={TextAnimate} viewport={{once:true}} initial={'offscreen'} whileInView={'onscreen'} className="max-w-sm">I'm filled with an incredible sense of happiness and contentment.</motion.p>
+                <motion.p variants={TextAnimate} viewport={{once:true, amount:0.8}} initial={'offscreen'} whileInView={'onscreen'} className="max-w-sm">I'm filled with an incredible sense of happiness and contentment.</motion.p>
             </div>
 
         </div>
